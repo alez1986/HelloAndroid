@@ -6,7 +6,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,47 +17,48 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="60dp"
+        android:padding="@dimen/padding"
         android:layout_weight="2" >
 
-        <TextView android:text="Udacity"
+        <TextView android:text="@string/company_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textSize="15sp"
+            android:textSize="@dimen/fontSize"
             android:layout_weight="1" />
 
-        <TextView android:text="2465 Latham St"
+        <TextView android:text="@string/company_address_street"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textSize="15sp"
+            android:textSize="@dimen/fontSize"
             android:layout_weight="1" />
 
-        <TextView android:text="Mountain View, CA 94043"
+        <TextView android:text="@string/company_address_city"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textSize="15sp"
+            android:textSize="@dimen/fontSize"
             android:layout_weight="1" />
 
-        <TextView android:text="650-555-5555"
+        <TextView android:text="@string/company_tel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textSize="15sp"
+            android:textSize="@dimen/fontSize"
             android:layout_weight="1" />
 
-        <TextView android:text="www.udacity.com"
+        <TextView android:text="@string/company_site"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textSize="15sp"
+            android:textSize="@dimen/fontSize"
+            android:autoLink="web"
             android:layout_weight="1" />
     </LinearLayout>
 </LinearLayout>
