@@ -50,6 +50,7 @@
             android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="@dimen/fontSize"
+            android:autoLink="phone"
             android:layout_weight="1" />
 
         <TextView android:text="@string/company_site"
